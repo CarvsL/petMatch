@@ -1,0 +1,297 @@
+/* Resetando estilos padrão */
+body {
+    font-family: "Arial"; /* Define a fonte padrão para o corpo do documento */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove preenchimento */
+    border: 0; /* Remove bordas */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: rgb(209, 224, 241); /* Define a cor de fundo do cabeçalho */
+}
+
+/* Estilização da navegação no cabeçalho */
+nav {
+    position: absolute; /* Define o posicionamento absoluto */
+    right: 50px; /* Margem direita de 50 pixels */
+    top: 100px; /* Margem superior de 100 pixels */
+}
+
+nav li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 0 0 30px; /* Define margens (0 topo, 0 direita, 0 inferior, 30px esquerda) */
+}
+
+/* Estilo das imagens */
+img {
+    right: 99px; /* Define uma margem direita de 99 pixels */
+    /* No entanto, falta uma propriedade de posicionamento, como 'position: relative;' */
+}
+
+/* Estilização do menu */
+nav a {
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    text-decoration: none; /* Remove decoração de texto */
+    text-transform: auto; /* Transformação de texto automática (isso deve ser 'none' ou outra transformação desejada) */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 50px; /* Define o tamanho da fonte como 50 pixels */
+    -webkit-text-stroke-width: 1px; /* Define a largura do contorno do texto */
+    -webkit-text-stroke-color: #000; /* Define a cor do contorno do texto */
+    transition: transform 0.3s ease; /* Transição suave de 0.3 segundos para a propriedade 'transform' */
+    display: inline-block; /* Para garantir que o efeito de escala funcione corretamente */
+}
+
+/* Estilização do menu quando o mouse está em cima */
+nav a:hover {
+    color: black; /* Altera a cor do texto para preto quando o mouse passa por cima */
+    text-decoration: none; /* Remove decoração de texto */
+    transform: scale(1.1); /* Efeito de escala quando o mouse passa por cima */
+}
+
+/* Posição do Menu */
+.logo_caixa {
+    position: relative; /* Define uma posição relativa para .logo_caixa */
+    width: 940px; /* Define a largura como 940 pixels */
+    margin: auto; /* Centraliza horizontalmente usando 'auto' nas margens esquerda e direita */
+}
+
+/* Tamanho do logotipo */
+.logo {
+    margin: 0 0 0 -100px; /* Define margens (0 topo, 0 direita, 0 inferior, -100px esquerda) */
+}
+
+.fundobanner{
+    background-color: #000;
+
+
+}
+
+/* Estilo do banner */
+.baner {
+    
+    
+    width: 100%; /* Define a largura como 100% */
+    height: 300px; /* Define a altura como 300 pixels */
+}
+
+/* Estilo da imagem no resumo */
+.resumo2 {
+    width: 80px; /* Define a largura como 100 pixels */
+    float: left; /* Faz com que a imagem flutue à esquerda do texto */
+    margin: 0 20px; /* Define margens (0 topo, 20px direita, 0 inferior, 0 esquerda) */
+}
+
+/* Estilização da seção "Sobre o aplicativo PetMatch" */
+.tituloPetMacth {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    clear: left; /* Limpa os elementos flutuantes à esquerda */
+    font-size: 2em; /* Define o tamanho da fonte como 2 em */
+    margin: 0; /* Remove margens externas */
+}
+
+.sobre-PetMatch {
+    background-color: #d0e1f240; /* Define a cor de fundo com transparência */
+    width: 100%; /* Define a largura como 100% */
+    padding-top: 25px; /* Define preenchimento superior de 25 pixels */
+    padding-bottom: 0px; /* Define preenchimento inferior de 0 pixels */
+    border: 0; /* Remove bordas */
+    margin: 0; /* Remove margens externas */
+}
+
+/* Estilização da seção "Nosso estabelecimento" */
+.tituloestabelecimento {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 2em; /* Define o tamanho da fonte como 2 em */
+    margin: 0; /* Remove margens externas */
+    padding-top: 0px; /* Define preenchimento superior de 0 pixels */
+    border: 0; /* Remove bordas */
+    width: 100%; /* Define a largura como 100% */
+}
+
+.localizacao {
+    background: linear-gradient(#d0e1f240, #d2dff0ff); /* Define um fundo com gradiente */
+    padding-top: 0px; /* Define preenchimento superior de 0 pixels */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove margens externas */
+    width: 100%; /* Define a largura como 100% */
+    border: 0; /* Remove bordas */
+    padding-top: 50px; /* Define preenchimento superior de 50 pixels */
+}
+
+/* Estilização da seção "Benefícios" */
+.beneficios {
+    background-color: #d2dff0ff; /* Define a cor de fundo com transparência */
+    padding-top: 0px; /* Define preenchimento superior de 0 pixels */
+    margin: 0; /* Remove margens externas */
+    width: 100%; /* Define a largura como 100% */
+    border: 0; /* Remove bordas */
+}
+
+.titulobene {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 2em; /* Define o tamanho da fonte como 2 em */
+    margin: 0; /* Remove margens externas */
+    padding-top: 0px; /* Define preenchimento superior de 0 pixels */
+    border: 0; /* Remove bordas */
+    width: 100%; /* Define a largura como 100% */
+    padding-top: 50px; /* Define preenchimento superior de 50 pixels */
+}
+
+
+/* Estilização da lista de benefícios */
+.listabene li {
+    line-height: 1.6; /* Define a altura da linha para 1.6 vezes o tamanho da fonte */
+}
+
+.listabene {
+    list-style: "🐾"; /* Define um estilo de lista personalizado com um emoji */
+    width: 25%; /* Define a largura da lista como 25% do contêiner pai */
+    display: inline-block; /* Faz com que as listas fiquem em linha horizontalmente */
+    vertical-align: top; /* Alinha as listas ao topo */
+    padding-left: 30%; /* Define preenchimento à esquerda de 30% do contêiner pai */
+}
+
+.listabene li:before {
+    content: "😻"; /* Adiciona um emoji antes de cada item da lista */
+}
+
+.listabene li:first-child {
+    font-weight: bold; /* Define o primeiro item da lista em negrito */
+}
+
+/* Estilo da imagem de benefícios */
+.img_beneficios {
+    width: 150px; /* Define a largura da imagem como 150 pixels */
+    box-shadow: 10px 10px 5px 0 black; /* Adiciona uma sombra à imagem */
+    opacity: 1; /* Define a opacidade inicial da imagem como 1 (totalmente visível) */
+    transition: 400ms; /* Define uma transição de 400 milissegundos para suavizar mudanças */
+}
+
+.img_beneficios:hover {
+    opacity: 0.7; /* Reduz a opacidade da imagem para 0.7 quando o mouse passa por cima */
+}
+
+.conteudo-beneficios {
+    width: 100%; /* Define a largura como 100% */
+}
+
+/* Estilo do vídeo */
+.video {
+    padding-left: 600px; /* Define preenchimento à esquerda de 600 pixels */
+}
+
+/* Estilização do footer */
+footer {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto; /* Centraliza horizontalmente com margens automáticas */
+    background: url("mada.jpg"); /* Define uma imagem de fundo */
+}
+
+.copyright {
+    color: white; /* Define a cor do texto como branco */
+    font-size: 12px; /* Define o tamanho da fonte como 12 pixels */
+    margin: 20px; /* Define margem de 20 pixels em todas as direções */
+}
+
+.logo_footer {
+    width: 20%; /* Define a largura do logotipo como 20% */
+}
+
+/* Estilos adicionais */
+.pedidos2 {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.quadrado1 {
+    left: 100px; /* Define a posição à esquerda como 100 pixels */
+    width: 300px; /* Define a largura como 300 pixels */
+    height: 300px; /* Define a altura como 300 pixels */
+    border: 5px solid; /* Define uma borda de 5 pixels sólidos */
+    border-color: rgb(0, 0, 0); /* Define a cor da borda como preto */
+}
+
+.banho {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.banho2 {
+    margin: -4px; /* Define margem negativa */
+    padding-left: 80px; /* Define preenchimento à esquerda de 80 pixels */
+}
+
+.img_banho {
+    width: 250px; /* Define a largura da imagem como 250 pixels */
+    margin: -25px 0 0 20px; /* Define margens (superior negativa, 0 direita, 0 inferior, 20px esquerda) */
+}
+
+.quadrado1:hover {
+    border-color: red; /* Altera a cor da borda para vermelho quando o mouse passa por cima */
+    color: red; /* Altera a cor do texto para vermelho quando o mouse passa por cima (se aplicável) */
+}
+/* Estilos adicionais */
+.pedidos3 {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.quadrado2 {
+    margin: -310px 0 0 600px; /* Define margens (superior negativa, 0 direita, 0 inferior, 600px esquerda) */
+    left: 100px; /* Define a posição à esquerda como 100 pixels */
+    width: 300px; /* Define a largura como 300 pixels */
+    height: 300px; /* Define a altura como 300 pixels */
+    border: 5px solid; /* Define uma borda de 5 pixels sólidos */
+    border-color: rgb(0, 0, 0); /* Define a cor da borda como preto */
+}
+
+.tosa {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.tosa2 {
+    margin: 60px 0 0 0; /* Define margens (60px superior, 0 direita, 0 inferior, 0 esquerda) */
+    padding-left: 80px; /* Define preenchimento à esquerda de 80 pixels */
+}
+
+.img_tosa {
+    width: 250px; /* Define a largura da imagem como 250 pixels */
+    margin: 10px 0 0 20px; /* Define margens (10px superior, 0 direita, 0 inferior, 20px esquerda) */
+}
+
+.quadrado2:hover {
+    border-color: red; /* Altera a cor da borda para vermelho quando o mouse passa por cima */
+    color: red; /* Altera a cor do texto para vermelho quando o mouse passa por cima (se aplicável) */
+}
+
+.pedidos4 {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.quadrado3 {
+    margin: -310px 0 0 1200px; /* Define margens (superior negativa, 0 direita, 0 inferior, 600px esquerda) */
+    left: 100px; /* Define a posição à esquerda como 100 pixels */
+    width: 300px; /* Define a largura como 300 pixels */
+    height: 300px; /* Define a altura como 300 pixels */
+    border: 5px solid; /* Define uma borda de 5 pixels sólidos */
+    border-color: rgb(0, 0, 0); /* Define a cor da borda como preto */
+}
+
+.banhoetosa {
+    padding-left: 90px; /* Define preenchimento à esquerda de 90 pixels */
+}
+
+.banhoetosa2 {
+    margin: 25px 0 0 10px; /* Define margens (60px superior, 0 direita, 0 inferior, 0 esquerda) */
+    padding-left: 80px; /* Define preenchimento à esquerda de 80 pixels */
+}
+
+.img_banhotosa {
+    width: 160px; /* Define a largura da imagem como 250 pixels */
+    margin: 10px 0 0 80px; /* Define margens (10px superior, 0 direita, 0 inferior, 20px esquerda) */
+}
+
+.quadrado3:hover {
+    border-color: red; /* Altera a cor da borda para vermelho quando o mouse passa por cima */
+    color: red; /* Altera a cor do texto para vermelho quando o mouse passa por cima (se aplicável) */
+}
+
+
