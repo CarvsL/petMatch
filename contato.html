@@ -1,12 +1,12 @@
 <html>
     <head>
+        <link href="stylecontato.css"rel="stylesheet">
         <link href="style.css"rel="stylesheet">
         <link href = "2.ico" rel = "shortcur icon">
         <title>Pet Match</title>
-        
+        <meta charset="UTF-8">
     </head>
-    
-<body>
+    <body>
         <header>
             <div class="logo_caixa">
                 <img src="2.png" title="Pet Match" height="300" width="300" class="logo"> </img>
@@ -19,78 +19,51 @@
                 </nav>
             </div>
         </header>
-
         <main>
-<div class="contato">
-<h1 class="titulocontato">CONTATO</h1>
-
-<form name="frmContato" method="get" action="mailto:teste@mail.com" target="_blank">
-    <fieldset>
-        <legend>Dados Pessoais</legend>
-        <label for="nomesobrenome">* Nome e sobrenome</label><br>
-        <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
-        <br><br><br>
-
-        <label for="email">* E-mail</label><br>
-        <input type="email" id="email" name="" class="input-padrao" required placeholder="XXX@XXX.com">
-        <br><br><br>
-
-        <label for="telefone">Telefone</label><br>
-        <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXX-XXXX">
-        <br><br><br>
-
-        <label for="mensagem">* Mensagem</label><br>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
-        <br><br><br>
-
-        <label for="contato">Como prefere o nosso contato?
-            <input type="radio" value="radio-mail" name="Contato"> E-mail
-            <input type="radio" value="radio-telefone" name="Contato"> Telefone
-            <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp
-
-    
-
-        </label>
-
-        <br><br>
-        <label for="horario"> Qual o motivo do seu contato?
+            <form name="frmContato" method="get" action="mailto:teste@mail.com" target="_blank">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomesobrenome">* Nome e sobrenome</label><br>
+                    <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+                    <br><br><br>
             
-            <select>
-            <option>Selecione</option>
-            <option>Dúvida</option>
-            <option>Sugestão</option>
-            <option>Elogio</option>
-            <option>Reclamação</option>
-        </select>
-        </label>
-
-
-    
-        <br><br>
-    <label><input type="submit" value="Enviar formulário" class="enviar"><br><br>
-    </fieldset>
-    </form>
-
-    
-
-
-              
-
+                    <label for="email">* E-mail</label><br>
+                    <input type="email" id="email" name="" class="input-padrao" required placeholder="XXX@XXX.com">
+                    <br><br><br>
             
-
-        
-</div>
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXX-XXXX">
+                    <br><br><br>
             
-    <br>
-    <br>
-    
-        </main>
-
-        <footer>
-            <img src="sonic.png" alt="Sonic" class="logo_footer">
-            <p class="copyright">&copy; Todos os direitos reservados para Sonic</p>
-            <br/>
+                    <label for="mensagem">* Mensagem</label><br>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <br><br><br>
             
-        </footer>
+                    <label for="contato">Como prefere o nosso contato?
+                        <input type="radio" value="radio-mail" name="Contato"> E-mail
+                        <input type="radio" value="radio-telefone" name="Contato"> Telefone
+                        <input type="radio" value="radio-whatsapp" name="Contato"> Whatsapp
+                        <br><br><br>
+                    <label for="horaio"> Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Dúvida</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </label>
+                    <br>
+                </fieldset>
+
+                <label><input type="checkbox" class="chk">Gostaria de receber nossa notivades</label>
+                <br>
+                <label></label><input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+            <footer>
+                <img src="sonic.png" alt="Sonic" class="logo_footer">
+                <p class="copyright">&copy; Todos os direitos reservados para Sonic</p>
+                <br/>
+                
+            </footer>
     </body>
-</html>
